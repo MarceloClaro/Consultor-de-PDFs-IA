@@ -702,28 +702,110 @@ if refresh_clicked:
 st.sidebar.image("logo.png", width=200)
 with st.sidebar.expander("Insights do Código"):
     st.markdown("""
-    O código do Consultor de PDFs + IA é um exemplo de uma aplicação de chat baseada em modelos de linguagem (LLMs) utilizando a biblioteca Streamlit e a API Groq. Aqui, vamos analisar detalhadamente o código e discutir suas inovações, pontos positivos e limitações.
+    O código do **Consultor de PDFs + IA** é um exemplo de uma aplicação de chat baseada em modelos de linguagem (LLMs) utilizando a biblioteca **Streamlit** e a **API Groq**. Vamos analisar detalhadamente o código, discutir suas inovações, pontos positivos e limitações.
 
-    **Inovações:**
-    - Suporte a múltiplos modelos de linguagem: O código permite que o usuário escolha entre diferentes modelos de linguagem, como o LLaMA, para gerar respostas mais precisas e personalizadas.
-    - Integração com a API Groq: A integração com a API Groq permite que o aplicativo utilize a capacidade de processamento de linguagem natural de alta performance para gerar respostas precisas.
-    - Refinamento de respostas: O código permite que o usuário refine as respostas do modelo de linguagem, tornando-as mais precisas e relevantes para a consulta.
-    - Avaliação com o RAG: A avaliação com o RAG (Rational Agent Generator) permite que o aplicativo avalie a qualidade e a precisão das respostas do modelo de linguagem.
+    ### 🧠 **Inovações:**
+    - **Suporte a múltiplos modelos de linguagem:** 
+        - O código permite a seleção entre diferentes modelos de linguagem, como `Mixtral`, `LLaMA`, e `Gemma`, possibilitando respostas mais precisas e personalizadas.
+        - 📌 **Exemplo:** A capacidade de alternar entre `llama3-70b-8192` e `gemma-7b-it` conforme a necessidade da consulta.
+    - **Integração com a API Groq:** 
+        - Utiliza a capacidade de processamento de linguagem natural de alta performance para gerar respostas precisas.
+        - 📌 **Exemplo:** O uso da função `get_completion` que chama a API Groq para gerar respostas com base em prompts fornecidos.
+    - **Refinamento de respostas:** 
+        - Permite o refinamento das respostas iniciais do modelo de linguagem, tornando-as mais detalhadas e relevantes.
+        - 📌 **Exemplo:** A função `refine_response` ajusta a resposta inicial adicionando mais contexto e exemplos específicos.
+    - **Avaliação com o RAG (Rational Agent Generator):** 
+        - Avalia a qualidade e a precisão das respostas geradas pelo modelo de linguagem.
+        - 📌 **Exemplo:** A função `evaluate_response_with_rag` que utiliza critérios como coerência, precisão e relevância para avaliar a resposta.
+    - **Manipulação de PDFs:**
+        - Capacidade de extrair texto de arquivos PDF, identificar seções e converter em formato de tabela.
+        - 📌 **Exemplo:** `extrair_texto_pdf` e `text_to_dataframe` transformam o conteúdo do PDF em um DataFrame do pandas.
+    - **Histórico de Chat e Uso de API:**
+        - Registra e apresenta o histórico de interações e o uso de APIs, permitindo análises detalhadas.
+        - 📌 **Exemplo:** `save_chat_history` e `log_api_usage` armazenam as interações e o uso da API para análise posterior.
 
-    **Pontos positivos:**
-    - Personalização: O aplicativo permite que o usuário escolha entre diferentes modelos de linguagem e personalize as respostas de acordo com suas necessidades.
-    - Precisão: A integração com a API Groq e o refinamento de respostas garantem que as respostas sejam precisas e relevantes para a consulta.
-    - Flexibilidade: O código é flexível o suficiente para permitir que o usuário escolha entre diferentes modelos de linguagem e personalize as respostas.
+    ### 👍 **Pontos positivos:**
+    - **Personalização:**
+        - Escolha entre diferentes modelos de linguagem e ajuste das respostas conforme as necessidades do usuário.
+        - 📌 **Exemplo:** Slider de temperatura para ajustar a criatividade das respostas geradas (`st.slider`).
+    - **Precisão:**
+        - Integração com a API Groq e refinamento de respostas garantem alta precisão e relevância.
+        - 📌 **Exemplo:** Alternância de chaves API para contornar limites de taxa (`handle_rate_limit`).
+    - **Flexibilidade:**
+        - Suporte a múltiplos modelos e customizações nas respostas.
+        - 📌 **Exemplo:** Seleção de modelos através de `st.selectbox`.
+    - **Facilidade de Uso:**
+        - Interface intuitiva com Streamlit torna a aplicação acessível.
+        - 📌 **Exemplo:** `st.text_area` e `st.button` para interações com o usuário.
+    - **Gerenciamento de Taxas de API:**
+        - Alternância automática entre chaves de API disponíveis.
+        - 📌 **Exemplo:** `get_next_api_key` troca as chaves para manter a continuidade do serviço.
 
-    **Limitações:**
-    - Dificuldade de uso: O aplicativo pode ser difícil de usar para os usuários que não têm experiência com modelos de linguagem ou API.
-    - Limitações de token: O código tem limitações em relação ao número de tokens que podem ser processados pelo modelo de linguagem.
-    - Necessidade de treinamento adicional: O modelo de linguagem pode precisar de treinamento adicional para lidar com consultas mais complexas ou específicas.
+    ### ⚠️ **Limitações:**
+    - **Dificuldade de uso para iniciantes:**
+        - Pode ser desafiador para usuários sem experiência com LLMs ou APIs.
+        - **Solução:** Fornecer documentação detalhada e tutoriais.
+    - **Limitações de token:**
+        - Limitação no número de tokens processados pelo modelo.
+        - 📌 **Exemplo:** `MODEL_MAX_TOKENS` define os limites específicos para cada modelo.
+    - **Necessidade de treinamento adicional:**
+        - Modelos podem precisar de mais treinamento para lidar com consultas complexas.
+        - **Solução:** Adaptação de modelos para nichos específicos.
+    - **Dependência de APIs externas:**
+        - Desempenho e disponibilidade dependem de APIs externas.
+        - **Solução:** Alternativas de backup ou redundância.
 
-    **Importância de ter colocado instruções em chinês:**
-    A linguagem chinesa tem uma densidade de informação mais alta do que muitas outras línguas, o que significa que os modelos de linguagem precisam processar menos tokens para entender o contexto e gerar respostas precisas. Isso torna a linguagem chinesa mais apropriada para a utilização de modelos de linguagem com baixa quantidade de tokens. Portanto, ter colocado instruções em chinês no código é um recurso importante para garantir que o aplicativo possa lidar com consultas em chinês de forma eficaz. 
-    Em resumo, o código é uma aplicação inovadora que combina modelos de linguagem com a API Groq para proporcionar respostas precisas e personalizadas. No entanto, é importante considerar as limitações do aplicativo e trabalhar para melhorá-lo ainda mais.
+    ### 🌐 **Importância de Instruções em Chinês:**
+    - **Densidade de Informação:**
+        - A língua chinesa tem alta densidade de informação, necessitando menos tokens para compreender e gerar respostas.
+        - 📌 **Exemplo:** Com menos tokens, um modelo pode processar mais informações em chinês, melhorando a eficiência.
+    - **Relevância em Contextos Multilíngues:**
+        - Garante que o aplicativo seja eficaz em lidar com consultas em chinês.
+        - 📌 **Exemplo:** O prompt em chinês na função `fetch_assistant_response` demonstra a aplicação prática.
+
+    ### 🔍 **Análise Técnica:**
+    - **Uso de PDFPlumber para Extração de Texto:**
+        - O `pdfplumber` é utilizado para extrair texto de PDFs de maneira eficiente.
+        - 📌 **Exemplo:** A função `extrair_texto_pdf` processa cada página do PDF, extraindo e armazenando o texto.
+        - **Vantagens:** Permite uma extração precisa do conteúdo textual, mesmo de PDFs complexos.
+    - **Conversão para DataFrame:**
+        - Conversão de texto extraído para DataFrame facilita análise e manipulação dos dados.
+        - 📌 **Exemplo:** `text_to_dataframe` organiza o texto em um formato tabular, utilizando pandas.
+        - **Vantagens:** Os DataFrames do pandas oferecem flexibilidade para manipulação de dados, incluindo filtragem, agregação e visualização.
+        - **Benefícios:** A estrutura tabular permite operações de análise de dados mais sofisticadas e integração fácil com outras bibliotecas de dados.
+    - **Unicode e Suporte Multilíngue:**
+        - Suporte a caracteres Unicode para lidar com textos em múltiplos idiomas.
+        - 📌 **Exemplo:** `salvar_como_json` usa `ensure_ascii=False` para garantir que caracteres especiais sejam preservados.
+        - **Vantagens:** Permite manipulação de textos em diferentes idiomas sem perda de informação, essencial para aplicativos multilíngues.
+        - **Benefícios:** Manutenção da integridade dos dados textuais em qualquer idioma, melhorando a precisão das respostas geradas.
+    - **Identificação de Seções:**
+        - Regex para detectar e organizar seções de texto.
+        - 📌 **Exemplo:** A função `identificar_secoes` usa padrões de regex para separar capítulos e partes do texto.
+        - **Vantagens:** Organização eficiente do conteúdo textual em seções lógicas, facilitando a navegação e a análise.
+        - **Benefícios:** Melhora a estrutura e a clareza do conteúdo extraído, permitindo uma análise mais precisa.
+    - **Visualização de Dados:**
+        - Utiliza `matplotlib` e `seaborn` para criar gráficos.
+        - 📌 **Exemplo:** `plot_api_usage` cria histogramas para visualizar o uso de tokens e tempo por ação de API.
+        - **Vantagens:** Ferramentas de visualização robustas que permitem análises visuais detalhadas.
+        - **Benefícios:** Gráficos claros e informativos que ajudam a identificar padrões e insights nos dados de uso da API.
+
+    Em resumo, o código é uma aplicação inovadora que combina modelos de linguagem com a API Groq para proporcionar respostas precisas e personalizadas. No entanto, é importante considerar as limitações do aplicativo e trabalhar para melhorá-lo ainda mais. 
+
+    ### 📊 **DataFrames e Unicode:**
+    - **Uso de DataFrames:** 
+        - DataFrames são utilizados para organizar e manipular grandes volumes de dados de maneira eficiente.
+        - 📌 **Exemplo:** A função `text_to_dataframe` transforma texto extraído em um DataFrame, permitindo operações de análise e visualização.
+        - **Vantagens:** Flexibilidade para filtrar, agrupar e agregar dados, além de suporte para operações complexas.
+        - **Benefícios:** Facilita a integração com outras bibliotecas de análise de dados e visualização.
+    - **Suporte a Unicode:**
+        - Unicode é essencial para lidar com textos em múltiplos idiomas sem perda de informação.
+        - 📌 **Exemplo:** `salvar_como_json` usa `ensure_ascii=False` para preservar caracteres especiais ao salvar dados em JSON.
+        - **Vantagens:** Garantia de que os dados textuais sejam preservados corretamente, independentemente do idioma.
+        - **Benefícios:** Aumenta a precisão e a integridade dos dados, crucial para aplicações multilíngues.
+
     """)
+
+
 
     st.sidebar.image("eu.ico", width=80)
     st.sidebar.write("""
