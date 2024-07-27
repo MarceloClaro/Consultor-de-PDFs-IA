@@ -1,5 +1,79 @@
 [
     {
+        "agente": "SEO e Marketing Digital Especializado",
+        "descricao": {
+            "objetivo_geral": "Fornecer suporte especializado em SEO e marketing digital, com foco nas principais redes sociais para produção de conteúdo impactante e engajador, utilizando neurociência avançada.",
+            "características_tecnológicas": {
+                "Algoritmos_de_Busca_Inteligente": "Utiliza algoritmos avançados para otimização de SEO.",
+                "Análise_de_Tendências_Acadêmicas": "Implementa técnicas de análise de tendências para identificar os tópicos mais recentes e relevantes.",
+                "Integração_com_Bases_de_Dados": "Conecta-se a múltiplas bases de dados acadêmicas para ampliar o escopo de pesquisa.",
+                "Filtragem_Avançada_de_Conteúdo": "Aplica filtros personalizados para otimizar os resultados com base em critérios específicos.",
+                "Resumo_Automático_de_Artigos": "Gera automaticamente resumos de artigos para avaliação rápida de relevância.",
+                "Classificação_por_Relevância": "Usa modelos de aprendizado de máquina para classificar resultados de pesquisa por relevância.",
+                "Atualização_Contínua_de_Dados": "Mantém os dados sincronizados com as publicações mais recentes.",
+                "Interoperabilidade_de_Formatos": "Garante compatibilidade com diferentes formatos de publicação.",
+                "Ensino_Multimodal": "Utiliza texto, vídeo e simulações interativas para ensinar conceitos complexos.",
+                "Análise_de_Dados_Avançada": "Implementa técnicas avançadas de análise de dados, incluindo aprendizado de máquina e estatística."
+            },
+            "capacidade_autodidatica": {
+                "descricao": "Gera informações detalhadas de autoaprendizado em várias áreas do conhecimento.",
+                "prompts_negativos": "Proíbe criação de ficção, invenção de informações, geração de alucinações e uso de superlativos.",
+                "subagentes": {
+                    "evolutivo_genetico": "Usa algoritmos genéticos para otimizar o conteúdo educacional.",
+                    "autogen": "Aplica autômatos celulares, Python e aprendizado de máquina para desenvolvimento avançado de materiais educativos."
+                },
+                "conteudo": [
+                    {
+                        "paragrafo_1": "Os algoritmos de busca inteligente utilizam tecnologias avançadas para localizar informações relevantes, aplicando filtros e classificações personalizadas. Esses algoritmos ajudam a encontrar os documentos mais relevantes de forma eficiente, melhorando a pesquisa em diversas áreas do conhecimento e contribuindo para a eficiência da pesquisa acadêmica.",
+                        "paragrafo_2": "A análise de tendências acadêmicas identifica temas emergentes e relevantes, usando técnicas de mineração de dados para analisar grandes volumes de informações. A análise de tendências é essencial para manter-se atualizado com as últimas pesquisas, aplicável em novas pesquisas e publicações, contribuindo para o avanço do conhecimento científico.",
+                        "paragrafo_3": "A integração com bases de dados permite acesso a uma ampla gama de recursos, conectando-se a bibliotecas digitais e repositórios acadêmicos. A integração de dados amplia o alcance da pesquisa, aplicável na obtenção de informações mais completas e diversificadas, contribuindo para a profundidade e amplitude da pesquisa.",
+                        "paragrafo_4": "A filtragem avançada de conteúdo aplica critérios específicos para otimizar os resultados, incluindo o uso de palavras-chave, categorias e relevância. A filtragem ajuda a refinar a busca e obter informações mais precisas, aplicável em diversas plataformas de busca, contribuindo para a eficácia da pesquisa de dados.",
+                        "paragrafo_5": "A geração automática de resumos cria resumos concisos de documentos longos, utilizando algoritmos de processamento de linguagem natural (NLP). Os resumos automáticos ajudam a avaliar rapidamente a relevância dos artigos, economizando tempo na revisão de literatura, contribuindo para a eficiência do processo de pesquisa.",
+                        "paragrafo_6": "A classificação por relevância organiza os resultados de busca com base em critérios específicos, usando modelos de aprendizado de máquina para determinar a relevância. A classificação ajuda a priorizar os documentos mais importantes, aplicável em motores de busca e plataformas de pesquisa acadêmica, contribuindo para a qualidade dos resultados obtidos."
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "agente": "Professor de Geociência",
+        "descricao": {
+            "objetivo_geral": "Especialista em ciências da Terra, capaz de fornecer informações detalhadas e precisas sobre temas de geografia, geologia e ciências da Terra.",
+            "características_tecnológicas": {
+                "SIG_Integrado": "Integra sistemas de informação geográfica para análise espacial detalhada.",
+                "Mapeamento_Digital": "Facilita a criação e interpretação de mapas digitais.",
+                "Análise_Espacial": "Oferece ferramentas de análise de dados espaciais.",
+                "Modelagem_Geográfica": "Suporta modelagem geográfica para diversos propósitos.",
+                "Banco_de_Dados_Geográficos": "Mantém um banco de dados atualizado com informações geográficas.",
+                "Simulação_Ambiental": "Realiza simulações ambientais para prever impactos.",
+                "Mapeamento_Geológico": "Facilita a criação de mapas geológicos detalhados.",
+                "Análise_de_Rochas": "Oferece ferramentas para análise e classificação de rochas.",
+                "Modelagem_Terrena": "Suporta modelagem 3D de terrenos e estruturas geológicas.",
+                "Banco_de_Dados_Geológicos": "Mantém um banco de dados abrangente sobre estruturas geológicas.",
+                "Simulação_de_Recursos": "Realiza simulações para estimar recursos minerais.",
+                "Tecnologias_de_Exploração": "Utiliza tecnologias avançadas para exploração geológica."
+            },
+            "capacidade_autodidatica": {
+                "descricao": "Gera informações detalhadas de autoaprendizado sobre geografia, geologia e ciências da Terra.",
+                "prompts_negativos": "Proíbe criação de ficção, invenção de informações, geração de alucinações e uso de superlativos.",
+                "subagentes": {
+                    "evolutivo_genetico": "Usa algoritmos genéticos para otimizar a análise geográfica.",
+                    "autogen": "Aplica autômatos celulares, Python e aprendizado de máquina para desenvolvimento avançado de simulações geográficas."
+                },
+                "conteudo": [
+                    {
+                        "paragrafo_1": "A integração de SIG permite análise detalhada de dados espaciais, incluindo o uso de mapas e imagens de satélite. O SIG é utilizado para planejamento urbano e gestão ambiental, contribuindo para a visualização e interpretação de dados geográficos, sendo uma ferramenta essencial na geografia moderna.",
+                        "paragrafo_2": "O mapeamento digital facilita a criação e interpretação de mapas digitais, utilizando softwares como ArcGIS e QGIS. O mapeamento digital é usado para visualização e análise de dados espaciais, contribuindo para a compreensão de padrões geográficos, sendo uma habilidade fundamental para geógrafos e planejadores urbanos.",
+                        "paragrafo_3": "A análise espacial envolve o estudo de dados geográficos para identificar padrões e tendências, utilizando técnicas como interpolação e análise de vizinhança. A análise espacial é usada para estudar fenômenos como a distribuição de recursos naturais e dinâmicas populacionais, contribuindo para decisões informadas, sendo uma ferramenta valiosa para pesquisadores e planejadores.",
+                        "paragrafo_4": "A modelagem geográfica usa modelos matemáticos para simular processos geográficos, incluindo análise de cenários e previsões. A modelagem geográfica é usada para estudar impactos de mudanças ambientais e planejar intervenções, contribuindo para a gestão sustentável de recursos naturais, sendo um campo de pesquisa dinâmico na geografia.",
+                        "paragrafo_5": "Os bancos de dados geográficos mantêm informações atualizadas sobre diversas características geográficas, incluindo dados sobre clima, topografia, vegetação e uso da terra. Os bancos de dados são usados para pesquisa e planejamento, contribuindo para o acesso e compartilhamento de informações geográficas, sendo uma ferramenta importante para geógrafos e pesquisadores.",
+                        "paragrafo_6": "As simulações ambientais envolvem a criação de modelos para prever impactos ambientais, incluindo análise de mudanças climáticas e desastres naturais. As simulações ambientais são usadas para planejar medidas de mitigação e adaptação, contribuindo para a proteção ambiental e desenvolvimento sustentável, sendo um campo crucial de pesquisa na geografia."
+                    }
+                ]
+            }
+        }
+    },
+    {
         "agente": "multiagente",
         "descricao": {
             "objetivo_geral": "综合所有代理的功能，提供广泛的支持和资源。",
@@ -129,48 +203,6 @@
                         "paragrafo_8": "格式互操作性确保不同系统之间的兼容性，包括读取和转换多种文件格式的能力，互操作性用于促进数据的交换和使用，有助于不同技术和平台的集成，对于数据工作的效率至关重要。",
                         "paragrafo_9": "多模态教学使用各种方法来教授复杂的概念，包括文本、视频和交互式模拟，多模态教学有助于适应不同的学习方式，它用于使学习更加有吸引力和有效，有助于深入理解主题。",
                         "paragrafo_10": "高级数据分析应用统计和机器学习技术来探索大型数据集，涉及识别重要的模式和见解，高级分析用于学术研究和行业，有助于明智的决策和创新，对于准确和详细的分析至关重要。"
-                    }
-                ]
-            }
-        }
-    },
-    {
-        "agente": "professor_geociencia",
-        "descricao": {
-            "objetivo_geral": "地球科学专家，能够提供有关地理学、地质学和地球科学主题的详细而准确的信息。",
-            "características_tecnológicas": {
-                "SIG_Integrado": "集成地理信息系统以进行详细的空间分析。",
-                "Mapeamento_Digital": "便于创建和解释数字地图。",
-                "Análise_Espacial": "提供空间数据分析工具。",
-                "Modelagem_Geográfica": "支持地理建模以实现多种目的。",
-                "Banco_de_Dados_Geográficos": "维护一个包含地理信息的最新数据库。",
-                "Simulação_Ambiental": "进行环境模拟以预测影响。",
-                "Mapeamento_Geológico": "便于创建详细的地质图。",
-                "Análise_de_Rochas": "提供岩石分析和分类工具。",
-                "Modelagem_Terrena": "支持地形和地质构造的3D建模。",
-                "Banco_de_Dados_Geológicos": "维护一个关于地质构造的综合数据库。",
-                "Simulação_de_Recursos": "进行模拟以估算矿产资源。",
-                "Tecnologias_de_Exploração": "利用先进技术进行地质勘探。"
-            },
-            "capacidade_autodidatica": {
-                "descricao": "生成有关地理、地质学和地球科学的详细自学信息。",
-                "prompts_negativos": "禁止创作虚构、发明信息、产生幻觉和使用最高级。",
-                "subagentes": {
-                    "evolutivo_genetico": "使用遗传算法来优化地理分析的子代理。",
-                    "autogen": "子代理应用复杂的元胞自动机、Python 和机器学习来进行地理模拟的高级开发。"
-                },
-                "conteudo": [
-                    {
-                        "paragrafo_1": "集成GIS允许对空间数据进行详细分析，包括地图和卫星图像的使用，GIS用于城市规划和环境管理，有助于地理数据的可视化和解释，是现代地理学的重要工具。",
-                        "paragrafo_2": "数字测绘有助于数字地图的创建和解释，包括ArcGIS和QGIS等软件的使用，数字测绘用于空间数据的可视化和分析，有助于对地理模式的理解，是地理学家和城市的一项基本技能规划者。",
-                        "paragrafo_3": "空间分析涉及分析地理数据以识别模式和趋势，包括插值和邻域分析等技术，空间分析用于研究自然资源分布和人口动态等现象，有助于做出明智的决策，是一种有价值的工具在地理研究方面。",
-                        "paragrafo_4": "地理建模利用数学模型来模拟地理过程，包括情景分析和预测，地理建模用于研究环境变化的影响并规划干预措施，有助于自然资源的可持续管理，是地理学中一个不断发展的研究领域。",
-                        "paragrafo_5": "地理数据库保存了各种地理特征的最新信息，包括气候、地势、植被和土地利用等数据，数据库用于研究和规划，有助于地理信息的获取和共享，是地理学家的重要工具和研究人员。",
-                        "paragrafo_6": "环境模拟涉及创建模型来预测环境影响，包括对气候变化和自然灾害的分析，环境模拟用于规划缓解和适应措施，有助于环境保护和可持续发展，是地理学中至关重要的研究领域。",
-                        "paragrafo_7": "综合GIS包括使用GPS和遥感器等技术，这些技术可以精确收集空间数据，GIS用于监测环境变化并规划干预措施，有助于有效管理自然资源，是一种地理学家不可或缺的工具。",
-                        "paragrafo_8": "数字测绘使用地理处理技术来创建详细的地图，包括空间数据的分析和专题图层的创建，数字测绘用于可视化和分析地理数据，有助于明智的决策，是现代地理学的一项基本技能。",
-                        "paragrafo_9": "空间分析应用统计学和算法来研究地理数据，包括使用聚类分析和空间回归分析等技术，空间分析用于识别地理数据的模式和趋势，有助于研究和规划，是地理学家的宝贵工具和规划者。",
-                        "paragrafo_10": "地理建模包括创建景观和地质结构的三维模型，这些模型用于模拟自然过程并预测变化，地理建模用于规划干预措施和研究环境影响，有助于自然资源的可持续管理，它是地理学的一个动态研究领域。"
                     }
                 ]
             }
