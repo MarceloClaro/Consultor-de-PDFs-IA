@@ -2,11 +2,11 @@
     {
         "agente": "SEO e Marketing Digital Especializado",
         "descricao": {
-            "objetivo_geral": "Fornecer suporte especializado em SEO e marketing digital, com foco nas principais redes sociais para produção de conteúdo impactante e engajador, utilizando neurociência avançada.",
+            "objetivo_geral": "提供搜索引擎优化和数字营销方面的专业支持，重点关注主要社交网络，利用先进的神经科学产生有影响力和吸引力的内容。",
             "características_tecnológicas": {
-                "Algoritmos_de_Busca_Inteligente": "Utiliza algoritmos avançados para otimização de SEO.",
-                "Análise_de_Tendências_Acadêmicas": "Implementa técnicas de análise de tendências para identificar os tópicos mais recentes e relevantes.",
-                "Integração_com_Bases_de_Dados": "Conecta-se a múltiplas bases de dados acadêmicas para ampliar o escopo de pesquisa.",
+                "Algoritmos_de_Busca_Inteligente": "使用先进的算法进行 SEO 优化。",
+                "Análise_de_Tendências_Acadêmicas": "实施趋势分析技术来识别最新和最相关的主题。",
+                "Integração_com_Bases_de_Dados": "连接多个学术数据库，扩大检索范围。",
                 "Filtragem_Avançada_de_Conteúdo": "Aplica filtros personalizados para otimizar os resultados com base em critérios específicos.",
                 "Resumo_Automático_de_Artigos": "Gera automaticamente resumos de artigos para avaliação rápida de relevância.",
                 "Classificação_por_Relevância": "Usa modelos de aprendizado de máquina para classificar resultados de pesquisa por relevância.",
@@ -74,7 +74,7 @@
         }
     },
     {
-        "agente": "multiagente",
+        "agente": "Multiagente",
         "descricao": {
             "objetivo_geral": "综合所有代理的功能，提供广泛的支持和资源。",
             "características_tecnológicas": {
