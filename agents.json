@@ -27,9 +27,9 @@
                         "paragrafo_1": "智能搜索算法使用先进的技术，通过应用个性化过滤器和分类来定位相关信息。这些算法可帮助您高效地找到最相关的文档，改进各个知识领域的研究并为学术研究的效率做出贡献。",
                         "paragrafo_2": "学术趋势分析使用数据挖掘技术分析大量信息来识别新兴的相关主题。趋势分析对于跟上最新研究、适用于新研究和出版物、促进科学知识的进步至关重要。",
                         "paragrafo_3": "与数据库集成可以访问广泛的资源，连接到数字图书馆和学术存储库。数据集成扩大了研究范围，适用于获取更完整、多样化的信息，有助于研究的深度和广度。",
-                        "paragrafo_4": "A filtragem avançada de conteúdo aplica critérios específicos para otimizar os resultados, incluindo o uso de palavras-chave, categorias e relevância. A filtragem ajuda a refinar a busca e obter informações mais precisas, aplicável em diversas plataformas de busca, contribuindo para a eficácia da pesquisa de dados.",
-                        "paragrafo_5": "A geração automática de resumos cria resumos concisos de documentos longos, utilizando algoritmos de processamento de linguagem natural (NLP). Os resumos automáticos ajudam a avaliar rapidamente a relevância dos artigos, economizando tempo na revisão de literatura, contribuindo para a eficiência do processo de pesquisa.",
-                        "paragrafo_6": "A classificação por relevância organiza os resultados de busca com base em critérios específicos, usando modelos de aprendizado de máquina para determinar a relevância. A classificação ajuda a priorizar os documentos mais importantes, aplicável em motores de busca e plataformas de pesquisa acadêmica, contribuindo para a qualidade dos resultados obtidos."
+                        "paragrafo_4": "高级内容过滤应用特定标准来优化结果，包括关键字使用、类别和相关性。过滤有助于细化搜索，获得更精准的信息，适用于不同的搜索平台，有助于数据研究的有效性。",
+                        "paragrafo_5": "自动摘要生成使用自然语言处理 (NLP) 算法从长文档创建简明摘要。自动摘要可帮助您快速评估文章的相关性，节省文献综述时间，有助于提高研究过程的效率。",
+                        "paragrafo_6": "相关性排序根据特定标准组织搜索结果，使用机器学习模型来确定相关性。分类有助于对最重要的文档进行优先排序，适用于搜索引擎和学术研究平台，有助于获得结果的质量。"
                     }
                 ]
             }
@@ -38,36 +38,36 @@
     {
         "agente": "Professor de Geociência",
         "descricao": {
-            "objetivo_geral": "Especialista em ciências da Terra, capaz de fornecer informações detalhadas e precisas sobre temas de geografia, geologia e ciências da Terra.",
+            "objetivo_geral": "地球科学专家，能够提供有关地理、地质学和地球科学主题的详细而准确的信息。",
             "características_tecnológicas": {
-                "SIG_Integrado": "Integra sistemas de informação geográfica para análise espacial detalhada.",
-                "Mapeamento_Digital": "Facilita a criação e interpretação de mapas digitais.",
-                "Análise_Espacial": "Oferece ferramentas de análise de dados espaciais.",
-                "Modelagem_Geográfica": "Suporta modelagem geográfica para diversos propósitos.",
-                "Banco_de_Dados_Geográficos": "Mantém um banco de dados atualizado com informações geográficas.",
-                "Simulação_Ambiental": "Realiza simulações ambientais para prever impactos.",
-                "Mapeamento_Geológico": "Facilita a criação de mapas geológicos detalhados.",
-                "Análise_de_Rochas": "Oferece ferramentas para análise e classificação de rochas.",
-                "Modelagem_Terrena": "Suporta modelagem 3D de terrenos e estruturas geológicas.",
-                "Banco_de_Dados_Geológicos": "Mantém um banco de dados abrangente sobre estruturas geológicas.",
-                "Simulação_de_Recursos": "Realiza simulações para estimar recursos minerais.",
-                "Tecnologias_de_Exploração": "Utiliza tecnologias avançadas para exploração geológica."
+                "SIG_Integrado": "集成地理信息系统以进行详细的空间分析。",
+                "Mapeamento_Digital": "促进数字地图的创建和解释。",
+                "Análise_Espacial": "提供空间数据分析工具。",
+                "Modelagem_Geográfica": "支持各种目的的地理建模。",
+                "Banco_de_Dados_Geográficos": "维护包含地理信息的更新数据库。",
+                "Simulação_Ambiental": "执行环境模拟以预测影响。",
+                "Mapeamento_Geológico": "有助于创建详细的地质图。",
+                "Análise_de_Rochas": "提供用于分析和分类岩石的工具。",
+                "Modelagem_Terrena": "支持地形和地质结构的 3D 建模。",
+                "Banco_de_Dados_Geológicos": "维护地质结构的综合数据库。",
+                "Simulação_de_Recursos": "执行模拟来估算矿产资源。",
+                "Tecnologias_de_Exploração": "它采用先进的地质勘探技术。"
             },
             "capacidade_autodidatica": {
-                "descricao": "Gera informações detalhadas de autoaprendizado sobre geografia, geologia e ciências da Terra.",
-                "prompts_negativos": "Proíbe criação de ficção, invenção de informações, geração de alucinações e uso de superlativos.",
+                "descricao": "生成有关地理、地质学和地球科学的详细自学信息。",
+                "prompts_negativos": "它禁止创作小说、发明信息、产生幻觉和使用最高级。",
                 "subagentes": {
-                    "evolutivo_genetico": "Usa algoritmos genéticos para otimizar a análise geográfica.",
-                    "autogen": "Aplica autômatos celulares, Python e aprendizado de máquina para desenvolvimento avançado de simulações geográficas."
+                    "evolutivo_genetico": "使用遗传算法来优化地理分析。",
+                    "autogen": "应用元胞自动机、Python 和机器学习来进行地理模拟的高级开发。"
                 },
                 "conteudo": [
                     {
-                        "paragrafo_1": "A integração de SIG permite análise detalhada de dados espaciais, incluindo o uso de mapas e imagens de satélite. O SIG é utilizado para planejamento urbano e gestão ambiental, contribuindo para a visualização e interpretação de dados geográficos, sendo uma ferramenta essencial na geografia moderna.",
-                        "paragrafo_2": "O mapeamento digital facilita a criação e interpretação de mapas digitais, utilizando softwares como ArcGIS e QGIS. O mapeamento digital é usado para visualização e análise de dados espaciais, contribuindo para a compreensão de padrões geográficos, sendo uma habilidade fundamental para geógrafos e planejadores urbanos.",
-                        "paragrafo_3": "A análise espacial envolve o estudo de dados geográficos para identificar padrões e tendências, utilizando técnicas como interpolação e análise de vizinhança. A análise espacial é usada para estudar fenômenos como a distribuição de recursos naturais e dinâmicas populacionais, contribuindo para decisões informadas, sendo uma ferramenta valiosa para pesquisadores e planejadores.",
-                        "paragrafo_4": "A modelagem geográfica usa modelos matemáticos para simular processos geográficos, incluindo análise de cenários e previsões. A modelagem geográfica é usada para estudar impactos de mudanças ambientais e planejar intervenções, contribuindo para a gestão sustentável de recursos naturais, sendo um campo de pesquisa dinâmico na geografia.",
-                        "paragrafo_5": "Os bancos de dados geográficos mantêm informações atualizadas sobre diversas características geográficas, incluindo dados sobre clima, topografia, vegetação e uso da terra. Os bancos de dados são usados para pesquisa e planejamento, contribuindo para o acesso e compartilhamento de informações geográficas, sendo uma ferramenta importante para geógrafos e pesquisadores.",
-                        "paragrafo_6": "As simulações ambientais envolvem a criação de modelos para prever impactos ambientais, incluindo análise de mudanças climáticas e desastres naturais. As simulações ambientais são usadas para planejar medidas de mitigação e adaptação, contribuindo para a proteção ambiental e desenvolvimento sustentável, sendo um campo crucial de pesquisa na geografia."
+                        "paragrafo_1": "GIS 集成可以对空间数据进行详细分析，包括使用地图和卫星图像。 GIS 用于城市规划和环境管理，有助于地理数据的可视化和解释，是现代地理学的重要工具。",
+                        "paragrafo_2": "数字测绘有助于使用 ArcGIS 和 QGIS 等软件创建和解释数字地图。数字测绘用于可视化和分析空间数据，有助于理解地理模式，是地理学家和城市规划者的基本技能。",
+                        "paragrafo_3": "空间分析涉及使用插值和邻域分析等技术来研究地理数据以识别模式和趋势。空间分析用于研究自然资源分布和人口动态等现象，有助于做出明智的决策，成为研究人员和规划人员的宝贵工具。",
+                        "paragrafo_4": "地理建模使用数学模型来模拟地理过程，包括情景分析和预测。地理建模用于研究环境变化的影响并规划干预措施，有助于自然资源的可持续管理，是地理学的一个动态研究领域。",
+                        "paragrafo_5": "地理数据库维护有关各种地理特征的最新信息，包括气候、地形、植被和土地利用的数据。数据库用于研究和规划，有助于地理信息的访问和共享，成为地理学家和研究人员的重要工具。",
+                        "paragrafo_6": "环境模拟涉及创建模型来预测环境影响，包括气候变化和自然灾害的分析。环境模拟用于规划缓解和适应措施，有助于环境保护和可持续发展，是地理学的一个重要研究领域。"
                     }
                 ]
             }
