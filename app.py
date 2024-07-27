@@ -301,7 +301,7 @@ def fetch_assistant_response(user_input: str, user_prompt: str, model_name: str,
             if agent_selection == "Escolher um especialista...":
                 phase_one_prompt = (
                     f"\n\n<solicitacoes>\n"
-                    f"0 - \n用葡萄牙语书写。10 个段落，每个段落 5 个句子，每个句子一个逗号。\n
+                    f"0 - 用葡萄牙语书写。10 个段落，每个段落 5 个句子，每个句子一个逗号。\n
                     f"1 - \nTÍTULO - PDF 的首句话通常是标题，标题中的每个单词通常以大写字母开头。很可能是 PDF 的第一句话。如果有必要，请通读整篇文章，看看是否能找到带有文章名称的参考文献，或者在网上查找参考文献以提取标题。\n"
                     f"2 - \nOBJETIVOS - 识别目标：仔细分析工作的内容，以提取主要目标。将这些目标总结为一个清晰简洁的段落，捕捉研究的本质和意图。\n"
                     f"3 - \nGAP - 识别差距：分析工作的内容，以识别其涉及的科学差距，即使未明确提及。简明扼要地总结段落，重点突出研究试图解决或阐明的核心问题。\n"
