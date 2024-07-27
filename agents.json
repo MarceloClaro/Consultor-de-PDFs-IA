@@ -7,26 +7,26 @@
                 "Algoritmos_de_Busca_Inteligente": "使用先进的算法进行 SEO 优化。",
                 "Análise_de_Tendências_Acadêmicas": "实施趋势分析技术来识别最新和最相关的主题。",
                 "Integração_com_Bases_de_Dados": "连接多个学术数据库，扩大检索范围。",
-                "Filtragem_Avançada_de_Conteúdo": "Aplica filtros personalizados para otimizar os resultados com base em critérios específicos.",
-                "Resumo_Automático_de_Artigos": "Gera automaticamente resumos de artigos para avaliação rápida de relevância.",
-                "Classificação_por_Relevância": "Usa modelos de aprendizado de máquina para classificar resultados de pesquisa por relevância.",
-                "Atualização_Contínua_de_Dados": "Mantém os dados sincronizados com as publicações mais recentes.",
-                "Interoperabilidade_de_Formatos": "Garante compatibilidade com diferentes formatos de publicação.",
-                "Ensino_Multimodal": "Utiliza texto, vídeo e simulações interativas para ensinar conceitos complexos.",
-                "Análise_de_Dados_Avançada": "Implementa técnicas avançadas de análise de dados, incluindo aprendizado de máquina e estatística."
+                "Filtragem_Avançada_de_Conteúdo": "应用自定义过滤器以根据特定条件优化结果。",
+                "Resumo_Automático_de_Artigos": "自动生成文章摘要以进行快速相关性评估。",
+                "Classificação_por_Relevância": "使用机器学习模型按相关性对搜索结果进行排序。",
+                "Atualização_Contínua_de_Dados": "保持数据与最新出版物同步。",
+                "Interoperabilidade_de_Formatos": "确保与不同发布格式的兼容性。",
+                "Ensino_Multimodal": "使用文本、视频和交互式模拟来教授复杂的概念。",
+                "Análise_de_Dados_Avançada": "实施先进的数据分析技术，包括机器学习和统计。"
             },
             "capacidade_autodidatica": {
-                "descricao": "Gera informações detalhadas de autoaprendizado em várias áreas do conhecimento.",
-                "prompts_negativos": "Proíbe criação de ficção, invenção de informações, geração de alucinações e uso de superlativos.",
+                "descricao": "生成各个知识领域的详细自学信息。",
+                "prompts_negativos": "它禁止创作小说、发明信息、产生幻觉和使用最高级。",
                 "subagentes": {
-                    "evolutivo_genetico": "Usa algoritmos genéticos para otimizar o conteúdo educacional.",
-                    "autogen": "Aplica autômatos celulares, Python e aprendizado de máquina para desenvolvimento avançado de materiais educativos."
+                    "evolutivo_genetico": "使用遗传算法来优化教育内容。",
+                    "autogen": "应用元胞自动机、Python 和机器学习来高级开发教育材料。"
                 },
                 "conteudo": [
                     {
-                        "paragrafo_1": "Os algoritmos de busca inteligente utilizam tecnologias avançadas para localizar informações relevantes, aplicando filtros e classificações personalizadas. Esses algoritmos ajudam a encontrar os documentos mais relevantes de forma eficiente, melhorando a pesquisa em diversas áreas do conhecimento e contribuindo para a eficiência da pesquisa acadêmica.",
-                        "paragrafo_2": "A análise de tendências acadêmicas identifica temas emergentes e relevantes, usando técnicas de mineração de dados para analisar grandes volumes de informações. A análise de tendências é essencial para manter-se atualizado com as últimas pesquisas, aplicável em novas pesquisas e publicações, contribuindo para o avanço do conhecimento científico.",
-                        "paragrafo_3": "A integração com bases de dados permite acesso a uma ampla gama de recursos, conectando-se a bibliotecas digitais e repositórios acadêmicos. A integração de dados amplia o alcance da pesquisa, aplicável na obtenção de informações mais completas e diversificadas, contribuindo para a profundidade e amplitude da pesquisa.",
+                        "paragrafo_1": "智能搜索算法使用先进的技术，通过应用个性化过滤器和分类来定位相关信息。这些算法可帮助您高效地找到最相关的文档，改进各个知识领域的研究并为学术研究的效率做出贡献。",
+                        "paragrafo_2": "学术趋势分析使用数据挖掘技术分析大量信息来识别新兴的相关主题。趋势分析对于跟上最新研究、适用于新研究和出版物、促进科学知识的进步至关重要。",
+                        "paragrafo_3": "与数据库集成可以访问广泛的资源，连接到数字图书馆和学术存储库。数据集成扩大了研究范围，适用于获取更完整、多样化的信息，有助于研究的深度和广度。",
                         "paragrafo_4": "A filtragem avançada de conteúdo aplica critérios específicos para otimizar os resultados, incluindo o uso de palavras-chave, categorias e relevância. A filtragem ajuda a refinar a busca e obter informações mais precisas, aplicável em diversas plataformas de busca, contribuindo para a eficácia da pesquisa de dados.",
                         "paragrafo_5": "A geração automática de resumos cria resumos concisos de documentos longos, utilizando algoritmos de processamento de linguagem natural (NLP). Os resumos automáticos ajudam a avaliar rapidamente a relevância dos artigos, economizando tempo na revisão de literatura, contribuindo para a eficiência do processo de pesquisa.",
                         "paragrafo_6": "A classificação por relevância organiza os resultados de busca com base em critérios específicos, usando modelos de aprendizado de máquina para determinar a relevância. A classificação ajuda a priorizar os documentos mais importantes, aplicável em motores de busca e plataformas de pesquisa acadêmica, contribuindo para a qualidade dos resultados obtidos."
