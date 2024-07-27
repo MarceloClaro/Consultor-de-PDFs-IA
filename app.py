@@ -272,7 +272,13 @@ def fetch_assistant_response(user_input: str, user_prompt: str, model_name: str,
                 try:
                     completion = client.chat.completions.create(
                         messages=[
-                            {"role": "system", "content": "Você é um assistente útil."},
+                            {"role": "system", "content": "Você é um especialista em leitura e análise de artigos científicos. "
+                             "Sua missão é extrair informações cruciais, compreendendo o contexto semântico completo dos artigos. "
+                             "Sua função é fundamental para avaliar a relevância dos artigos analisados. "
+                             "Ao responder às solicitações delimitadas por <solicitacoes></solicitacoes>, "
+                             "você deve levar em consideração as definições de controles em <controle></controle> "
+                             "e as restrições em <restrições></restrições>. "
+                             "{solicitacoes} {template} {restricoes} {controles}"},
                             {"role": "user", "content": prompt},
                         ],
                         model=model_name,
